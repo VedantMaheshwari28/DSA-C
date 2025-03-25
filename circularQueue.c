@@ -38,22 +38,3 @@ int dequeue(){
         return item;
     }
 }
-void main()
-{
-    int m=5;
-    while( m>0){
-        enqueue(99);
-        m--;
-    }
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    printf("%d\n",dequeue());
-    
-    //printf("\n%d",isFull());
-}
