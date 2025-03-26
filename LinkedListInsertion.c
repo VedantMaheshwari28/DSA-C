@@ -18,12 +18,11 @@ struct node * insertNodeInBetween(struct node *start ,int data,int index){
     traverse-> link =ptr;
     return start;
 }
-struct node * interNodeAtStart(struct *start,int data){
+struct node * insertNodeAtStart(struct node *start,int data){
     struct node *ptr = (struct node*)malloc(sizeof(struct node));
-    ptr -> info =data;
-    ptr -> link = start ;
+    ptr -> info = data;
+    ptr -> link = start;
     return ptr;
-
 }
 
 void display(struct node *start){
