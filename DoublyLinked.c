@@ -49,6 +49,7 @@ struct node * insertAtIndex(struct node* start,int data,int index){
     int b=count (start);
     if(index >b){
         printf("INVALID");
+        return start;
     }
     else{
         struct node * traverse=start,*nexttraverse;
